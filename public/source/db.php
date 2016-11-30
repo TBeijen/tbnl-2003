@@ -1,8 +1,8 @@
 <?php
-$dbHost = "";
-$dbUser = "";
+$dbHost = "localhost";
+$dbUser = "root";
 $dbPass = "";
-$dbDb = "";
+$dbDb = "tbnl_2003";
 
 // putting the table names in vars in case names have to be changed for use on webhost
 $tbl_pf_categories = "pf_categories";
