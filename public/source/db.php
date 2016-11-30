@@ -1,4 +1,4 @@
-<?
+<?php
 $dbHost = "";
 $dbUser = "";
 $dbPass = "";
@@ -10,4 +10,3 @@ $tbl_pf_changeLog  = "pf_changeLog";
 $tbl_pf_downloads  = "pf_downloads";
 $tbl_pf_images     = "pf_images";
 $tbl_pf_pages      = "pf_pages";
-?>

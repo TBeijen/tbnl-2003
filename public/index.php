@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting (E_ALL);
 include "source/colors.php";
 include "source/db.php";
@@ -35,7 +35,7 @@ a[bfh++] = b+'contact.gif';
 a[bfh++] = b+'contact_ro.gif';
 
 // some colors used outside css
-<?
+<?php
 echo "var clrCat1 = '".$clrCat1."';\n";
 echo "var clrCat2 = '".$clrCat2."';\n";
 echo "var clrCat3 = '".$clrCat3."';\n";
@@ -48,7 +48,7 @@ echo "var clrCat4_ro = '".$clrCat4_ro."';\n";
 echo "var clrCat5_ro = '".$clrCat5_ro."';\n";
 ?>
 
-<?
+<?php
 // main functionality
 
 // connecting & selecting the approp DB

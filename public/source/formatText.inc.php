@@ -1,4 +1,4 @@
-<?
+<?php
 function fMainText($myText,$accentColor,$defColor) {
 	global $parseSmilies;
 	// make sure html tags are in lowercase
@@ -22,4 +22,3 @@ function addSmilies($myText) {
 	}
 	return $myText;
 }
-?>

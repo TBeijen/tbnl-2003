@@ -1,4 +1,5 @@
-<?header("Content-type: text/css");
+<?php
+header("Content-type: text/css");
 
 include "colors.php";
 
@@ -673,4 +674,3 @@ HR.summary {
 	border-color: $clrLines;
 }
 "
-?>

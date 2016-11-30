@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting (E_ALL);
 include "source/db.php";
 include "source/colors.php";
@@ -53,7 +53,7 @@ window.onerror=stopError;
 <!--<body id='textPageBody' onload="parent.xferContent('blaat');">-->
 <body id='imgPageBody' onload="top.rightLoaded();">
 <table border="0" cellspacing="0" cellpadding="0">
-<?
+<?php
 $i=1;
 while ($resImage = mysql_fetch_array($imgResult)) {
 	$imgId = $resImage['id'];
@@ -76,13 +76,13 @@ while ($resImage = mysql_fetch_array($imgResult)) {
 	<tr>
 		<td width="138" height="1" bgcolor="<?=$clrLines?>"><img src="images/spacer.gif" width="138" height="1" border="0"></td>
 	</tr>
-<?
+<?php
 	if ($i<$nOfImages) {
 ?>
 	<tr>
 		<td width="138" height="20"><img src="images/spacer.gif" width="138" height="40" border="0"></td>
 	</tr>
-<?
+<?php
 	}
 	$i++;
 }

@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting (E_ALL);
 include "source/db.php";
 include "source/colors.php";
@@ -79,7 +79,7 @@ window.onerror=stopError;
 </script> 
 </head>
 <body id='textPageBody' onload="top.leftLoaded('<?=$pageTitle?>',<?=$corCatIndex?>);">
-<?
+<?php
 echo $printTitlePrint;
 
 $i=1;

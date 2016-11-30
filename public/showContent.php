@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting (E_ALL);
 include "source/db.php";
 include "source/colors.php";
@@ -81,6 +81,6 @@ window.onerror=stopError;
 </head>
 
 <body style="overflow:auto;" onload="onLoad();">
-<? echo $content; ?>
+<?php echo $content; ?>
 </body>
 </html>

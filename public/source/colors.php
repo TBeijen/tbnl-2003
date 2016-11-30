@@ -1,4 +1,4 @@
-<?
+<?php
 $clrPageBg = "#131313";
 $clrColumn = "#1F1F1F"; // column on the right, containing the thumbnails
 $clrLines = "#9A9A9A"; // 40% grey
@@ -48,4 +48,3 @@ $clrTitleTextCat5 = "#BD9CBC";
 $altPagesBaseDir = "contAltPAges/";
 $loadFuncName = "loadPages"; // the name of the function that loads the pages
 $parseSmilies = 1;
-?>

@@ -1,4 +1,4 @@
-<?
+<?php
 error_reporting (E_ALL);
 $parseSmilies=1;
 include "source/db.php";
@@ -86,8 +86,8 @@ window.onerror=stopError;
 
 <!--<body id='textPageBody' onload="parent.xferContent('blaat');">-->
 <body id='textPageBody' onload="top.leftLoaded('<?=$pageTitle?>',<?=$catIndex?>);">
-<? echo $titlePrint; ?>
-<? echo $content; ?>
+<?php echo $titlePrint; ?>
+<?php echo $content; ?>
 <br>
 <br>
 </body>
