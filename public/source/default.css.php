@@ -673,4 +673,4 @@ HR.summary {
 	border-width: 1px;
 	border-color: $clrLines;
 }
-"
+";
